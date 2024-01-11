@@ -11,7 +11,7 @@ def generate_qrcode(url):
     qr.add_data(url)
     qr.make(fit=True)
     img = qr.make_image(fill_color = "black", back_color = "white")
-    img.save("abimael_doppel.png")
+    img.save("") # your file name
 
-generate_qrcode("https://www.instagram.com/abimael.doppel?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==")
+generate_qrcode("") # url will you save.
     
